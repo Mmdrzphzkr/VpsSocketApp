@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #messages {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+
+  .confirmed-message {
+    color: green;
+    font-style: italic;
+  }
